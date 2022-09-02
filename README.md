@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Notes
+
+```javascript
+// Hooks:
+// useState()
+// useEffect(): This is meant for
+// componentDidMount >> no dependencies passed: This lifecycle method is used for making side effects(API call)(i.e get data from server) e.g fetch(url).then()
+// componentDidUpdate >> if we pass any dependencies: This is also one of the helpful lifecycle method to make API call based on the property(props) change
+// componentWillUnmount >> return function of callback
+// useMemo()
+// useCallBack()
+// useSelector()
+// useDispatch()
+```
